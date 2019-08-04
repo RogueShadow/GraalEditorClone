@@ -1,19 +1,11 @@
 package net.granseal.GraalEditorClone
 
-import java.awt.*
 import java.awt.event.ActionEvent
-import java.awt.event.ActionListener
-import java.awt.event.ComponentListener
-import java.beans.PropertyChangeListener
 import java.io.File
-import java.util.logging.Level
+import java.io.FileFilter
 import java.util.logging.Logger
 import javax.swing.*
-import javax.swing.border.CompoundBorder
-import javax.swing.border.EmptyBorder
-import javax.swing.event.AncestorListener
 import javax.swing.filechooser.FileNameExtensionFilter
-import javax.tools.Tool
 import kotlin.system.exitProcess
 
 fun main(){
@@ -36,15 +28,21 @@ object GraalEditorClone {
 
     fun runSomeTests(){
         Editor.addLevel(JLabel("Added a new one!"),"New Tab!")
-        Editor.levels().forEach(::println)
         Editor.removeLevel("New Tab!")
-        Editor.levels().forEach(::println)
+        val files = File("res/levels").listFiles(FileFilter{
+            it.extension == "nw"
+        })
+        val levels = files.map {
+            loadNWFile(it)
+        }
+        levels.forEach(::println)
     }
 
     fun openMenu(e: ActionEvent){
         val oldStatus = Editor.leftStatus
         Editor.leftStatus = "Please choose a file to open."
         val chooser = JFileChooser()
+        chooser.currentDirectory = File(".")
         val filter = FileNameExtensionFilter("Graal Files(*.nw, *.gmap)","nw","gmap")
         chooser.fileFilter = filter
         if (chooser.showOpenDialog(Editor) == JFileChooser.APPROVE_OPTION){
@@ -72,10 +70,10 @@ object GraalEditorClone {
     }
 
     fun newMenu(e: ActionEvent) {
-        val newFiles = Editor.levels().filter{it.name.startsWith("New File") && !it.name.endsWith(".nw")}
+        val newFiles = Editor.levels().filter{it.name.startsWith("<untitled>") && !it.name.endsWith(".nw")}
         Editor.addLevel(JScrollPane(),
-            if (newFiles.count() == 0) "New File"
-            else "New File ${newFiles.count()}"
+            if (newFiles.count() == 0) "<untitled>"
+            else "<untitled> ${newFiles.count()}"
         )
     }
 

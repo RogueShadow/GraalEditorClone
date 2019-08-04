@@ -1,13 +1,8 @@
 package net.granseal.GraalEditorClone
 
-import javafx.scene.shape.Circle
-import javafx.scene.shape.StrokeType
 import java.awt.*
-import java.awt.image.BufferedImage
-import java.util.logging.Level
 import javax.swing.*
 import javax.swing.border.CompoundBorder
-import javax.swing.border.StrokeBorder
 
 
 object Editor : JFrame() {
