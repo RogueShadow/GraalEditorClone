@@ -3,16 +3,14 @@ package net.granseal.GraalEditorClone
 import java.awt.Canvas
 import java.awt.Dimension
 import java.awt.Graphics
+import java.awt.image.BufferedImage
+import javax.swing.JPanel
 
-class TilesetComponent: Canvas() {
-    init {
-        preferredSize =  Dimension(Editor.tilesetImage.getWidth(null),Editor.tilesetImage.getHeight(null))
-        size = preferredSize
-    }
+class TilesetComponent: JPanel() {
 
     override fun paint(g: Graphics) {
-        preferredSize = Dimension(Editor.tilesetImage.getWidth(null),Editor.tilesetImage.getHeight(null))
+        preferredSize = Dimension(Assets("pics1.png").getWidth(null),Assets("pics1.png").getHeight(null))
         size = preferredSize
-        g.drawImage(Editor.tilesetImage,0,0,null)
+        g.drawImage(Assets("pics1.png"),0,0,null)
     }
 }

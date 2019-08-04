@@ -15,20 +15,15 @@ object Editor : JFrame() {
     private lateinit var levelContainer: JTabbedPane
     private lateinit var statusRight: JLabel
     private lateinit var statusLeft: JLabel
-    var tilesetImage: Image
-        private set
+
     var tileset = File(Config.TILESET_PATH)
     set(value){
         if (value.exists()){
+            Assets.removeImage(field.name)
+            Assets.loadImage( value)
             field = value
-            tilesetImage = ImageIO.read(value)
         }
     }
-
-    init {
-        tilesetImage = ImageIO.read(tileset)
-    }
-
 
     private val tabs = mutableListOf<Pair<Component, String>>()
 
@@ -131,8 +126,7 @@ object Editor : JFrame() {
 
     //Handy functions.
     fun addLevel(c: Component, title: String): Boolean {
-        val tab = ScrollPane()
-        tab.add(c)
+        val tab = JScrollPane(c)
         val result = tabs.add(tab to title)
         return if (result) {
             GraalEditorClone.logger.info("Added new level, $title")
