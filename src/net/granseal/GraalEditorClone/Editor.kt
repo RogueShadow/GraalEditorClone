@@ -16,15 +16,6 @@ object Editor : JFrame() {
     private lateinit var statusRight: JLabel
     private lateinit var statusLeft: JLabel
 
-    var tileset = File(Config.TILESET_PATH)
-    set(value){
-        if (value.exists()){
-            Assets.removeImage(field.name)
-            Assets.loadImage( value)
-            field = value
-        }
-    }
-
     private val tabs = mutableListOf<Pair<Component, String>>()
 
     //Initialization functions.
@@ -62,7 +53,6 @@ object Editor : JFrame() {
         levelContainer = this
     }
 
-
     private fun createStatusBar() = JPanel().apply {
         GraalEditorClone.logger.info("Creating Status Bar")
         layout = BorderLayout()
@@ -95,7 +85,6 @@ object Editor : JFrame() {
         add(JButton(UIManager.getIcon("")))
         add(JButton(UIManager.getIcon("")))
         add(JButton(UIManager.getIcon("")))
-
     }
 
     private fun createMenu() = JMenuBar().apply {
