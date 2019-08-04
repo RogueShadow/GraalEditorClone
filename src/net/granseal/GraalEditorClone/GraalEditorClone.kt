@@ -33,9 +33,8 @@ object GraalEditorClone {
             it.extension == "nw"
         })
         val levels = files.map {
-            loadNWFile(it)
+            Editor.addLevel(NWLevelComponent(loadNWFile(it)),it.name)
         }
-        levels.forEach(::println)
     }
 
     fun openMenu(e: ActionEvent){

@@ -1,14 +1,34 @@
 package net.granseal.GraalEditorClone
 
 import java.awt.*
+import java.awt.event.ComponentEvent
+import java.awt.event.ComponentListener
+import java.io.File
+import javax.imageio.ImageIO
 import javax.swing.*
 import javax.swing.border.CompoundBorder
+import javax.swing.event.AncestorEvent
+import javax.swing.event.AncestorListener
 
 
 object Editor : JFrame() {
     private lateinit var levelContainer: JTabbedPane
     private lateinit var statusRight: JLabel
     private lateinit var statusLeft: JLabel
+    var tilesetImage: Image
+        private set
+    var tileset = File(Config.TILESET_PATH)
+    set(value){
+        if (value.exists()){
+            field = value
+            tilesetImage = ImageIO.read(value)
+        }
+    }
+
+    init {
+        tilesetImage = ImageIO.read(tileset)
+    }
+
 
     private val tabs = mutableListOf<Pair<Component, String>>()
 
@@ -36,7 +56,9 @@ object Editor : JFrame() {
     private fun createTilesetContainer() = JTabbedPane().apply {
         GraalEditorClone.logger.info("Creating Tileset Container")
         preferredSize = Dimension(300, 0)
-        add(JLabel("Tileset here"), "Tileset")
+        val sp = ScrollPane()
+        sp.add(TilesetComponent())
+        add(sp, "Tileset")
     }
 
     private fun createLevelTabContainer() = JTabbedPane().apply {
@@ -108,7 +130,9 @@ object Editor : JFrame() {
     }
 
     //Handy functions.
-    fun addLevel(tab: Component, title: String): Boolean {
+    fun addLevel(c: Component, title: String): Boolean {
+        val tab = ScrollPane()
+        tab.add(c)
         val result = tabs.add(tab to title)
         return if (result) {
             GraalEditorClone.logger.info("Added new level, $title")

@@ -1,6 +1,8 @@
 @file:JvmName("Functions")
 package net.granseal.GraalEditorClone
 
+import java.awt.Graphics
+import java.awt.Image
 import java.awt.Point
 import java.awt.Toolkit
 import java.awt.event.ActionEvent
@@ -24,6 +26,20 @@ fun base64ToTile(s: String): Short {
 
 fun pointToTile(p: Point): Short {
     return (p.x / 16 % 16 + p.x / 256 * 512 + p.y / 16 * 16 % 512).toShort()
+}
+
+fun drawAllTiles(level: NWLevel, tileset: Image, g: Graphics){
+    for (tile in level.tiles){
+        val p = tileToPoint(tile.value)
+        g.drawImage(
+            tileset,
+            tile.x*16,tile.y*16,
+            tile.x*16+16,tile.y*16+16,
+            p.x,p.y,
+            p.x+16,p.y+16,
+            null
+        )
+    }
 }
 
 fun loadNWFile(file: String) = loadNWFile(File(file))
