@@ -1,0 +1,692 @@
+GLEVNW01
+BOARD 0 0 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 1 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 2 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 3 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 4 64 0 FGFHFGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 5 64 0 FWFXFWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 6 64 0 f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 7 64 0 f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 8 64 0 f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 9 64 0 f/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/f/HIHYHZGPHIHYHZGPHIHYHZGPf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 10 64 0 f/FGFHf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FGFHf/f/f/f/GoFDFEGbGoFDFEGbGoFDFEGbf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 11 64 0 f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/FWFXf/f/f/f/G4FCFSGrG4FCFSGrG4FCFSGrf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 12 64 0 f/f/FGFHf/f/FGFHf/f/FGFHf/f/FGFHf/f/FGFHf/f/FGFHf/f/f/f/f/HJGYGZG5HJGYGZG5HJGYGZG5f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 13 64 0 f/f/FWFXFGFHFWFXf/f/FWFXFGFHFWFXFGFHFWFXFGFHFWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 14 64 0 f/f/f/f/FWFXf/f/f/f/f/f/FWFXf/f/FWFXf/f/FWFXf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 15 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 16 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LELFLGLHLELFLGLHKpKqf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 17 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LULVLWLXLULVLWLXK5K6f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 18 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LULVLWLXLULVLWLXKpKqf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 19 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LULVLWLXLULVLWLXK5K6Z2Z3Z4f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 20 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/LkLlLlLnLkLlLlLnKpKqaGaHaIf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 21 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KpKqKpKqKpKqK5K6Z2Z3Z4ARARARARARARARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 22 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/K5K6K5K6K5K6KpKqaGaHaIARARARARARARARf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 23 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/Z2Z3Z4K5K6Z2Z3Z4AhAhAhAgAgAhAhf/f/f/f/f/f/f/f/f/f/IAIBf/cKcLf/f/f/f/f/
+BOARD 0 24 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/aGaHaIKpKqaGaHaIf/f/f/ARARf/f/f/f/f/f/f/f/f/f/f/f/IQIRf/cacbf/f/f/f/f/
+BOARD 0 25 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KpKqK5K6f/f/f/f/f/f/AgAgf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 26 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/K5K6f/f/f/f/f/f/f/f/ARARf/f/f/f/f/f/f/f/f/f/f/f/Z0Z1f/cKcLf/f/f/f/f/
+BOARD 0 27 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/aEaFf/cacbf/f/f/f/f/
+BOARD 0 28 64 0 f/f/f/f/f/f/ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvf/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 29 64 0 f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/KlKmf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/frfsf//l/mf/f/f/f/f/
+BOARD 0 30 64 0 f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/f/Zvf/ZvZvf/Zvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/K1K2f/f/f/KnKoGkGlGkGlGkGlf/f/f/f/f7f8f//1/2f/f/f/f/f/
+BOARD 0 31 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/K3K4G0G1G0G1G0G1f/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 32 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/GkGlACADACADf/f/f/f/fgfhf//l/mf/f/f/f/f/
+BOARD 0 33 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/G0G1ASATASATf/f/f/f/fwfxf//1/2f/f/f/f/f/
+BOARD 0 34 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/Zvf/f/f/f/f/ZvZvf/f/f/f/f/Zvf/f/f/f/f/f/f/f/Zvf/f/KlKmf/KnKof/GkGlACADACADf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 35 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/Zvf/f/f/f/f/f/ZvZvf/f/f/f/f/f/Zvf/f/f/f/f/f/f/Zvf/f/K1K2f/K3K4f/G0G1ASATASATf/f/f/f/g4g5f/fyfyf/f/f/f/f/
+BOARD 0 36 64 0 f/f/f/f/Zvf/f/f/f/f/f/Zvf/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/Zvf/f/f/f/f/f/Zvf/f/f/f/f/f/f/f/GkGlACADACADf/f/f/f/hIhJf/fyfyf/f/f/f/f/
+BOARD 0 37 64 0 f/f/f/f/Zvf/f/f/f/f/Zvf/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/Zvf/f/f/f/f/Zvf/f/f/f/f/f/f/f/G0G1ASATASATf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 38 64 0 f/f/f/f/Zvf/f/f/f/Zvf/f/f/f/ZvZvf/f/f/ZvZvf/f/f/ZvZvf/f/f/f/Zvf/f/f/f/Zvf/f/f/f/f/f/f/f/GkGlACADACADf/f/f/f/oCoDf/yQyRf/f/f/f/f/
+BOARD 0 39 64 0 f/f/f/f/Zvf/f/f/Zvf/f/f/f/f/ZvZvf/f/f/ZvZvf/f/f/ZvZvf/f/f/f/f/Zvf/f/f/Zvf/f/f/f/f/f/f/f/G0G1ASATASATf/f/f/f/oSoTf/ygyhf/f/f/f/f/
+BOARD 0 40 64 0 f/f/f/f/Zvf/f/Zvf/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/Zvf/f/Zvf/f/f/f/f/f/f/f/GkGlGkGlGkGlf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 41 64 0 f/f/f/f/Zvf/Zvf/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/f/Zvf/Zvf/f/f/f/f/f/f/f/G0G1G0G1G0G1f/f/f/f/tKtLf/xQxRf/f/f/f/f/
+BOARD 0 42 64 0 f/f/f/ZvZvZvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/ZvZvZvf/f/f/f/f/f/f/GkGlGkGlACADf/f/f/f/tatbf/xgxhf/f/f/f/f/
+BOARD 0 43 64 0 f/f/ZvZvZvZvZvZvZvZvAwAxZvZvZvZvZvZvf/ZvZvf/ZvZvZvZvZvZvAwAxZvZvZvZvZvZvZvZvf/f/f/f/f/f/G0G1G0G1ASATf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 44 64 0 f/f/ZvZvZvZvZvZvZvZvAwAxZvZvZvZvZvZvf/ZvZvf/ZvZvZvZvZvZvAwAxZvZvZvZvZvZvZvZvf/f/f/f/f/f/GkGlGkACADACADf/f/f/xSxTf/xQxRf/f/f/f/f/
+BOARD 0 45 64 0 f/f/f/ZvZvZvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/ZvZvZvf/f/f/f/f/f/f/G0G1G0ASATASATf/f/f/xixjf/xgxhf/f/f/f/f/
+BOARD 0 46 64 0 f/f/f/f/Zvf/Zvf/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/f/Zvf/Zvf/f/f/f/f/f/GkGlGkGlACADACADf/f/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 47 64 0 f/f/f/f/Zvf/f/Zvf/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/Zvf/f/Zvf/f/f/f/f/f/G0G1G0G1ASATASATf/f/f/f/5+5/f/cKcLf/f/f/f/f/
+BOARD 0 48 64 0 f/f/f/f/Zvf/f/f/Zvf/f/f/f/f/ZvZvf/f/f/ZvZvf/f/f/ZvZvf/f/f/f/f/Zvf/f/f/Zvf/f/f/f/f/f/GkGlGkACADACADACADf/f/f/6O6Pf/cacbf/f/f/f/f/
+BOARD 0 49 64 0 f/f/f/f/Zvf/f/f/f/Zvf/f/f/f/ZvZvf/f/f/ZvZvf/f/f/ZvZvf/f/f/f/Zvf/f/f/f/Zvf/f/f/f/f/f/G0G1G0ASATASATASATf/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 50 64 0 f/f/f/f/Zvf/f/f/f/f/Zvf/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/Zvf/f/f/f/f/Zvf/f/f/f/f/f/GkGlACADACADACADf/f/f/f/+4+5f/cKcLf/f/f/f/f/
+BOARD 0 51 64 0 f/f/f/f/Zvf/f/f/f/f/f/Zvf/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/Zvf/f/f/f/f/f/Zvf/f/f/f/f/f/G0G1ASATASATASATf/f/f/f//I/Jf/cacbf/f/f/f/f/
+BOARD 0 52 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/Zvf/f/f/f/f/f/ZvZvf/f/f/f/f/f/Zvf/f/f/f/f/f/f/Zvf/f/f/f/GkGlGkACADACADACADACADf/f/f/f/f/f/f/f/f/f/f/f/f/
+BOARD 0 53 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/Zvf/f/f/f/f/ZvZvf/f/f/f/f/Zvf/f/f/f/f/f/f/f/Zvf/f/f/f/G0G1G0ASATASATASATASATf/f/f/6e6ff//l/mf/f/f/f/f/
+BOARD 0 54 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/f/Zvf/f/f/f/ZvZvf/f/f/f/Zvf/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/GkGlACADACADACADACf/f/f/6u6vf//1/2f/f/f/f/f/
+BOARD 0 55 64 0 f/f/f/f/Zvf/f/f/f/f/f/f/f/f/f/Zvf/f/f/ZvZvf/f/f/Zvf/f/f/f/f/f/f/f/f/f/Zvf/f/f/f/f/f/G0G1ASATASATASATASf/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 56 64 0 f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/Zvf/f/ZvZvf/f/Zvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/GkGlGkACADACADACADf/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 57 64 0 f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/Zvf/ZvZvf/Zvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/G0G1G0ASATASATASATf/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 58 64 0 f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/ZvZvf/f/ARARARARARf/GkGlGkGlACADACADf/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 59 64 0 f/f/f/f/f/f/f/ZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvZvf/f/f/ARf/f/f/ARf/G0G1G0G1ASATASATf/f/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 60 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvZvZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ARf/f/f/GkGlGkACADACADf/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 61 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ZvZvf/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ARf/f/f/G0G1G0ASATASATf/f/f/f/f/f/f/f/f/f/f/f/AR
+BOARD 0 62 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/ARARARARARf/f/f/GkGlGkGlACADf/f/f/f/f/f/f/f/f/f/f/f/f/Ag
+BOARD 0 63 64 0 f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/f/G0G1G0G1ASATf/f/f/f/f/f/f/f/ARARARARARAR
+BADDY 37 59 0
+Stop!
+Ouch!
+
+BADDYEND
+NPC door.png 61 61
+//NPC created by Rogue Shadow (TCN)
+if (created)setimg gui_icon.png;
+if (playertouchsme)toweapons GUI;
+//#CLIENTSIDE
+if ((created||playerenters)&&isweapon){
+  init_windows();
+  init_objects();
+}
+
+if (playerchats&&isweapon&&startswith(/,#c)){
+  tokenize #c;
+  if (strequals(#t(0),/show)){
+    if (strequals(#t(1),all)){
+      for (i=0;i<this.max_windows;i++)replacestring client.window_#v(i),win_vis,1;
+    }else{
+      replacestring client.window_#v(strtofloat(#t(1))),win_vis,1;
+    }
+  }elseif(strequals(#t(0),/hide)){
+    if (strequals(#t(1),all)){
+      for (i=0;i<this.max_windows;i++)replacestring client.window_#v(i),win_vis,0;
+    }else{
+      replacestring client.window_#v(strtofloat(#t(1))),win_vis,0;
+    }
+  }elseif(strequals(#t(0),/refresh)){
+    for (i=0;i<this.max_windows;i++){
+      replacestring client.window_#v(i),win_x,#v(64+(i*64));
+      replacestring client.window_#v(i),win_y,#v(64+(i*64));
+      replacestring client.window_#v(i),win_width,128;
+      replacestring client.window_#v(i),win_height,128;
+    }
+  }
+  draw_windows();
+}
+//// moving , resizing , active window stuff /////
+if (mousedown&&isweapon){
+  for (this.k=0;this.k<this.max_windows;this.k++){
+    this.tx = strtofloat(#I(client.window_#v(this.k),win_x));
+    this.ty = strtofloat(#I(client.window_#v(this.k),win_y));
+    this.tw = strtofloat(#I(client.window_#v(this.k),win_width));
+    this.th = strtofloat(#I(client.window_#v(this.k),win_height));
+    this.sx = strtofloat(#I(client.window_#v(this.selected),win_x));
+    this.sy = strtofloat(#I(client.window_#v(this.selected),win_y));
+    this.sw = strtofloat(#I(client.window_#v(this.selected),win_width));
+    this.sh = strtofloat(#I(client.window_#v(this.selected),win_height));
+    if (mousescreenx in |this.tx,this.tx+this.tw| && mousescreeny in |this.ty,this.ty+this.th+16| && strtofloat(#I(client.window_#v(this.k),win_vis)) == 1){
+      if (this.selected != this.k){
+        replacestring client.window_#v(this.k),win_vis,0;
+        draw_windows();
+        this.selected=this.k;
+        replacestring client.window_#v(this.k),win_vis,1;
+        draw_windows();
+      }elseif (mousescreenx in |this.sx+this.sw-32,this.sx+this.sw| && mousescreeny in |this.sy,this.sy+16|){
+        this.moving = 1;
+        this.mov_x=this.sx-mousescreenx;
+        this.mov_y=this.sy-mousescreeny;
+        timeout=.05;
+        draw_windows();
+      }elseif (mousescreenx in |this.sx+this.sw-32,this.sx+this.sw| && mousescreeny in |this.sy+this.sh,this.sy+this.sh+16|){
+        this.sizing = 1;
+        this.mov_x=(this.sw)-mousescreenx;
+        this.mov_y=(this.sh)-mousescreeny;
+        timeout=.05;
+        draw_windows();
+      }elseif (mousescreenx in |this.sx+this.sw-64,this.sx+this.sw-32| && mousescreeny in |this.sy,this.sy+16|){
+        this.editing=1;
+        replacestring client.window_#v(this.selected),win_name,#c;
+        draw_windows();
+      }
+    }
+  }
+}
+if (timeout&&this.moving==1){
+  replacestring client.window_#v(this.selected),win_x,#v(mousescreenx+this.mov_x);
+  replacestring client.window_#v(this.selected),win_y,#v(mousescreeny+this.mov_y);
+  draw_outline();
+  timeout=.05;
+}
+if(timeout&&this.sizing==1){
+  replacestring client.window_#v(this.selected),win_width,#v(mousescreenx+this.mov_x);
+  replacestring client.window_#v(this.selected),win_height,#v(mousescreeny+this.mov_y);
+  draw_outline();
+  timeout=.05;
+}
+if (mouseup&&isweapon){
+  this.moving = 0;
+  this.sizing = 0;
+  this.editing= 0;
+  timeout = 0;
+  draw_windows();
+  hide_outline();
+}
+////  window drawing engine stuff ////
+function init_windows(){
+  // FORMAT: client.window_index,win_name,win_vis,win_x,win_y,win_width,win_height,obj_0,obj_1,obj_2,obj_3;  //  format of the string itself
+  // FORMAT2: strtofloat( #I( client.window_#v( win_index ), win_attribute ) );  // access attribute as a number.
+  // FORMAT3: #I( client.window_#v( win_index ), win_attribute );  // access attribute as a string.
+  win_name=0;win_vis=1;win_x=2;win_y=3;win_width=4;win_height=5;obj_0=6,obj_1=7;obj_2=8;obj_3=9;
+  this.max_windows=3;                       // number of windows
+  this.min_width=16*8;                      // minimum width
+  this.min_height=16*2;                     // minimum height
+  this.max_width=16*25;                     // maximum width
+  this.max_height=16*25;                    // maximum height
+  this.selected=0;                          // active window
+  if (!strequals(#s(client.gui_strings),yes)){
+    for (this.i=0;this.i<this.max_windows;this.i++){
+      setstring client.window_#v(this.i),Window_#v(this.i),1,#v(64+(this.i*64)),#v(64+(this.i*64)),128,128;
+    }
+    setstring client.gui_strings,yes;
+  }
+  showstats 256+512+1024;
+  draw_windows();
+}
+function draw_windows(){
+  this.sx = strtofloat(#I(client.window_#v(this.selected),win_x));
+  this.sy = strtofloat(#I(client.window_#v(this.selected),win_y));
+  this.sw = strtofloat(#I(client.window_#v(this.selected),win_width));
+  this.sh = strtofloat(#I(client.window_#v(this.selected),win_height));
+  while (this.sw%16!=0)this.sw++;
+  while (this.sh%16!=0)this.sh++;
+  if (this.sw < this.min_width)this.sw=this.min_width;
+  if (this.sh < this.min_height)this.sh=this.min_height;
+  if (this.sw > this.max_width)this.sw=this.max_width;
+  if (this.sh > this.max_height)this.sh=this.max_height;
+  if (this.sx+this.sw>screenwidth-16)this.sx = this.sx-(this.sx+this.sw-screenwidth+16);
+  if (this.sy+this.sh>screenheight-16)this.sy = this.sy-(this.sy+this.sh-screenheight+16);
+  if (this.sx<0)this.sx=0;
+  if (this.sy<0)this.sy=0;
+  replacestring client.window_#v(this.selected),win_x,#v(this.sx);
+  replacestring client.window_#v(this.selected),win_y,#v(this.sy);
+  replacestring client.window_#v(this.selected),win_width,#v(this.sw);
+  replacestring client.window_#v(this.selected),win_height,#v(this.sh);
+  setarray this.index,this.max_windows;
+  for (this.i=5000;this.i<this.old_index;this.i++)hideimg this.i;
+  for (this.i=0;this.i<this.max_windows;this.i++)this.index[this.i]=5000;
+  for (this.i=0;this.i<this.max_windows;this.i++){
+    if (this.i!=0)this.index[this.i] = this.index[this.i-1];
+    this.index[this.i]+=1;
+    this.vis = strtofloat(#I(client.window_#v(this.i),win_vis));
+    this.x = strtofloat(#I(client.window_#v(this.i),win_x));
+    this.y = strtofloat(#I(client.window_#v(this.i),win_y));
+    this.width = strtofloat(#I(client.window_#v(this.i),win_width));
+    this.height = strtofloat(#I(client.window_#v(this.i),win_height));
+    if (this.vis==1){
+      showimg this.index[this.i]+0,move_button.png,this.x+this.width-32,this.y;
+      if (this.selected == this.i  && this.moving == 1)showimg this.index[this.i]+0,move_button2.png,this.x+this.width-32,this.y;
+      showimg this.index[this.i]+1,size_button.png,this.x+this.width-32,this.y+this.height;
+      if (this.selected == this.i  && this.sizing == 1)showimg this.index[this.i]+1,size_button2.png,this.x+this.width-32,this.y+this.height;
+      showimg this.index[this.i]+2,edit_button.png,this.x+this.width-64,this.y;
+      if (this.selected == this.i && this.editing == 1)showimg this.index[this.i]+2,edit_button2.png,this.x+this.width-64,this.y;
+      showimg this.index[this.i]+4,letters.png,this.x,this.y;
+      showimg this.index[this.i]+5,letters.png,this.x,this.y+this.height;
+      showimg this.index[this.i]+6,letters.png,this.x+this.width,this.y+this.height;
+      showimg this.index[this.i]+7,letters.png,this.x+this.width,this.y;
+      showtext this.index[this.i]+9,this.x+16,this.y,arial,b,#I(client.window_#v(this.i),win_name);
+      showpoly this.index[this.i]+8,{this.x+16,this.y+16,this.x+this.width,this.y+16,this.x+this.width,this.y+this.height,this.x+16,this.y+this.height};
+      changeimgpart this.index[this.i]+4,0,192,16,16;
+      changeimgpart this.index[this.i]+5,32,196,16,32;
+      changeimgpart this.index[this.i]+6,48,196,16,32;
+      changeimgpart this.index[this.i]+7,16,192,16,16;
+      if (this.selected != this.i ){
+        changeimgcolors this.index[this.i]+9,.4,.4,.4,1;
+      } else  changeimgcolors this.index[this.i]+9,0,0,0,1;
+      changeimgzoom this.index[this.i]+9,.7;
+      changeimgcolors this.index[this.i]+8,(255/255),(247/255),(204/255),1;
+      changeimgvis this.index[this.i]+0,5+this.i;
+      changeimgvis this.index[this.i]+1,5+this.i;
+      changeimgvis this.index[this.i]+2,5+this.i;
+      changeimgvis this.index[this.i]+4,4+this.i;
+      changeimgvis this.index[this.i]+5,4+this.i;
+      changeimgvis this.index[this.i]+6,4+this.i;
+      changeimgvis this.index[this.i]+7,4+this.i;
+      changeimgvis this.index[this.i]+8,4+this.i;
+      changeimgvis this.index[this.i]+9,5+this.i;
+      this.index[this.i]+=10;
+      for (this.j=16;this.j<this.width;this.j+=16){
+        showimg this.index[this.i],letters.png,this.x+this.j,this.y;
+        changeimgpart this.index[this.i],64,192,16,16;
+        changeimgvis this.index[this.i],4+this.i;
+        this.index[this.i]++;
+      }
+      for (this.j=16;this.j<this.height;this.j+=16){
+        showimg this.index[this.i],letters.png,this.x,this.y+this.j;
+        changeimgpart this.index[this.i],0,192+16,16,16;
+        changeimgvis this.index[this.i],4+this.i;
+        this.index[this.i]++;
+      }
+      for (this.j=16;this.j<this.width;this.j+=16){
+        showimg this.index[this.i],letters.png,this.x+this.j,this.y+this.height;
+        changeimgpart this.index[this.i],80,196,16,16;
+        changeimgvis this.index[this.i],4+this.i;
+        this.index[this.i]++;
+      }
+      for (this.j=16;this.j<this.height;this.j+=16){
+        showimg this.index[this.i],letters.png,this.x+this.width,this.y+this.j;
+        changeimgpart this.index[this.i],16,192+16,16,16;
+        changeimgvis this.index[this.i],4+this.i;
+        this.index[this.i]++;
+      }
+    }
+  }
+  this.old_index = this.index[this.max_windows-1];
+}
+
+function draw_outline(){
+  this.x = strtofloat(#I(client.window_#v(this.selected),win_x));
+  this.y = strtofloat(#I(client.window_#v(this.selected),win_y));
+  this.w = strtofloat(#I(client.window_#v(this.selected),win_width))+16;
+  this.h = strtofloat(#I(client.window_#v(this.selected),win_height))+16;
+  while (this.w%16!=0)this.w++;
+  while (this.h%16!=0)this.h++;
+  if (this.w < this.min_width)this.w=this.min_width;
+  if (this.h < this.min_height)this.h=this.min_height;
+  if (this.w > this.max_width)this.w=this.max_width;
+  if (this.h > this.max_height)this.h=this.max_height;
+  if (this.x+this.w>screenwidth)this.x = this.x-(this.x+this.w-screenwidth);
+  if (this.y+this.h>screenheight)this.y = this.y-(this.y+this.h-screenheight);
+  if (this.x<0)this.x=0;
+  if (this.y<0)this.y=0;
+  showpoly 6000,{this.x,this.y,this.x+this.w,this.y};
+  showpoly 6001,{this.x+this.w,this.y,this.x+this.w,this.y+this.h};
+  showpoly 6002,{this.x+this.w,this.y+this.h,this.x,this.y+this.h};
+  showpoly 6003,{this.x,this.y+this.h,this.x,this.y};
+  for (this.ii=6000;this.ii<6004;this.ii++)changeimgvis this.ii,20;
+}
+function hide_outline()for (this.ii=6000;this.ii<6004;this.ii++)hideimg this.ii;
+
+
+
+
+function init_objects(){
+  //FORMAT client.object_index,obj_name,account,string1,string2,weaponname,select or fire;
+  obj_name=0;account=1;string1=6;string2=2;click_action=3;
+  this.max_objects = 4*this.max_windows;  // max objects per window
+  for (this.o=0;this.o<this.max_objects;this.o++){
+    setstring client.object_#v(this.o),Object_#v(this.o),#a,playerhearts,playerfullhearts,none,select;
+  }
+  setarray this.obj_selected,this.max_windows;
+  draw_windows();
+}
+NPCEND
+NPC - 3 18
+// NPC created by Rogue Shadow (TCN)
+//#CLIENTSIDE
+
+if (playerchats&&strequals(#c,draw)){
+  this.mode = 0;
+  this.on = 1;
+  this.index = 0;
+  this.zoom = 16;
+  this.x = x;
+  this.y = y;
+  this.iwidth = 128;
+  this.iheight = 128;
+  this.add = 1/this.zoom;
+  this.width = x+(this.iwidth/this.zoom);
+  this.height = y+(this.iheight/this.zoom);
+  this.pixels = (this.iwidth*this.iheight);
+  timeout=.05;
+}
+
+if (timeout){
+  timeout=.05;
+  if (this.y < this.height)for (this.x = x;this.x<this.width;this.x+=this.add){
+  showimg this.index,pixel.png,this.x,this.y;
+  get_rgb();
+  changeimgvis this.index,3;
+  this.index++;
+  }
+  this.y+=this.add;
+  message #v(this.index)/#v(this.pixels);
+}
+
+
+function get_rgb(){
+  changeimgcolors this.index , (((this.x-x+((this.width-x)/2))^2+(this.y-y+((this.height-y)/2))^2)^.5)/(this.width-x) , sin((this.width-x)*(this.x-x)*(this.y-y)) ,0, 1 ;
+}
+NPCEND
+NPC sign.png 40 22
+// NPC created by Rogue Shadow
+if (created||timeout){
+  with (getplayer(adam)){
+    if (startswith(/,#c)){
+      if (strequals(#c,/test)){
+        setplayerprop #c,Test Completed.;
+      }else
+      if (strequals(#c,/enableweapons)){
+        enableweapons;
+        setplayerprop #c,Weapons Enabled.;
+      }else
+      if (strequals(#c,/heal)){
+        playerhearts = playerfullhearts;
+        setplayerprop #c,Healed.;
+      }
+    }
+  }
+  timeout = 5;
+}
+NPCEND
+NPC sign.png 38 24
+if (playertouchsme){
+  addweapon AllWeapons;
+  setstring clientr.weapon_config,Sword,sword2,[none],0,3,3,.25,0,0;
+}
+NPCEND
+NPC - 42 59
+// Graal2002 NPC by Stefan Knorr
+if (created) {
+  // Initialize the attributes
+  showcharacter;
+  setcharprop #3,head0.png;
+  setcharprop #C0,orange;
+  setcharprop #C1,white;
+  setcharprop #C2,blue;
+  setcharprop #C3,red;
+  setcharprop #C4,black;
+  setcharprop #2,shield1.gif;
+  shieldpower = 1;
+  dir = 2;
+  hurtdx = 0;
+  hurtdy = 0;
+  hearts = 3;
+}
+if (playerenters || wasthrown) {
+  // Initialize the this. variables
+  timeout = 0.05;
+  if (hearts<=0) {
+    this.mode = 5; // RESPAWN
+    this.runcounter = 0;
+    timeout = 5;
+  } else {
+    this.mode = 0;
+    setcharani idle,;
+    this.runcounter = int(random(10,40));
+  }
+}
+
+// Hurting stuff
+if (washit && this.mode!=1 && hearts>0) {
+  dx = x-playerx;
+  dy = y-playery;
+  len = (dx*dx+dy*dy)^0.5;
+  hurtdx = dx/len;
+  hurtdy = dy/len;
+  setcharani hurt,;
+  hideimg 1;
+  hearts -= playerswordpower/2;
+}
+if ((hurtdx!=0 || hurtdy!=0) && isleader && this.mode!=4) {
+  this.hurtdx = hurtdx;
+  this.hurtdy = hurtdy;
+  hurtdx = 0;
+  hurtdy = 0;
+  if (hearts<=0) {
+    this.mode = 4; // DYING
+    message;
+    setcharani dead,;
+    timeout = 1.2;
+  } else {
+    this.mode = 1; // HURTED
+    this.runcounter = 20;
+    setcharani hurt,;
+    timeout = 0.05;
+  }
+}
+if (timeout && this.mode==1) { // HURTED
+  this.runcounter--;
+  if (this.runcounter>10) {
+    testx = x + 1.5 + this.hurtdx*2;
+    testy = y + 2 + this.hurtdy*2;
+    if (!onwall(testx,testy)) {
+      x += this.hurtdx;
+      y += this.hurtdy;
+    }
+  }
+  if (this.runcounter<=0) {
+    if (swordpower>0) this.mode = 2; // HUNTING
+    else this.mode = 0; // WALKING
+    this.runcounter = 100;
+    setcharani idle,;
+  }
+  timeout = 0.05;
+}
+if (timeout && this.mode==4) { // DYING
+  i = random(0,100);
+  if (i<10) lay greenrupee;
+  else if (i<15) lay bluerupee;
+  else if (i<30) lay heart;
+}
+NPCEND
+NPC door.png 8 12
+// NPC made by Rogue Shadow -TT-*C* (TCN)
+
+if (playertouchsme) {
+  message You Cannot Pass.;
+}
+
+if (playerchats&&(strequals(#a,adam))&&startswith(/passcode,#c)){
+  tokenize #e(9,-1,#c);
+  setarray this.passcode,tokenscount;
+  for (i=0;i<tokenscount;i++)this.passcode[i]=strtofloat(#t(i));
+  message Passcode Changed.;
+}
+if(playerchats){
+  this.match=0;
+  tokenize #c;
+  if (tokenscount==arraylen(this.passcode)){
+    for (i=0;i<tokenscount;i++){
+      if (strtofloat(#t(i))==this.passcode[i])this.match++;
+    }
+  }
+  if (this.match==tokenscount){
+    hide;
+    timeout=2;
+  }
+}
+
+if (timeout)show;
+NPCEND
+NPC - 11 28
+// npc created by rogue shadow
+// idea by geovanie legend
+// wasn't easy to make the scoring short...
+
+if (timeout){
+  this.len2 = sarraylen(server.die.results);
+  this.index=0;
+  for (this.i=0;this.i<this.old_index;this.i++)hideimg this.i;
+  for (this.i=0;this.i<this.len2;this.i++){
+    showimg this.index,@#v(this.i+1). #I(server.die.results,this.i),x-3,2+y+(this.i*1.5);
+    this.index++;
+  }
+  this.old_index = this.index;
+  if (this.len2 > 10)setstring server.die.results,;
+}
+
+if (playerchats && this.on == true)message Hold on Speedy.;
+if (playerchats && startswith(roll,#c) && this.on == false){
+  this.on = true;
+  tokenize #c;
+  this.len = strtofloat(#t(1));
+  setstring server.die,;
+  setstring server.die.score,0,0,0,0,0,0;
+  if (this.len > 10)this.len = 10;
+  for (this.i=0;this.i<this.len;this.i++){
+    this.number = int(random(1,6)+.5);
+    addstring server.die,#v(this.number);
+    replacestring server.die.score,this.number-1,#v(strtofloat(#I(server.die.score,this.number-1))+1);
+  }
+
+  //temp
+  setstring server.die.temp,;
+  this.score = 0;
+  for (this.i=0;this.i<this.len;this.i++){
+    if (strtofloat(#I(server.die.score,this.i))==1){
+      this.score++;
+    }
+  }
+  if (this.score == this.len && this.len == 5){
+    this.score = 1000;
+  }else{
+    this.score = 0;
+    this.die_left = this.len;
+    for (this.i=0;this.i<6;this.i++){
+      this.num1 = this.i+1;
+      this.num2 = strtofloat(#I(server.die.score,this.i));
+      if (this.num1 != 1 && this.num1 != 5){
+        if (this.num2 == 5){
+          this.score += this.num1*1000;
+          this.die_left -= 5;
+        }elseif(this.num2 == 3){
+          this.score += this.num1*100;
+          this.die_left -= 3;
+        }
+      }elseif(this.num1 == 1){
+        if (this.num2 == 5){
+          this.score = 1000000;
+          this.die_left -= 5;
+        }elseif(this.num2 == 4){
+          this.score += 200;
+          this.die_left -= 4;
+        }elseif(this.num2 == 3){
+          this.score += 1000;
+          this.die_left -= 3;
+        }elseif(this.num2 <= 2){
+          this.score += 100*this.num2;
+          this.die_left -= this.num2;
+        }
+      }elseif(this.num1 == 5){
+        if (this.num2 == 5){
+          this.score = 5000;
+          this.die_left -= 5;
+        }elseif(this.num2 == 4){
+          this.score += 550;
+          this.die_left -= 4;
+        }elseif(this.num2 == 3){
+          this.score += 500;
+          this.die_left -= 3;
+        }elseif(this.num2 <= 2){
+          this.score += 50*this.num2;
+          this.die_left -= this.num2;
+        }
+      }
+    }
+  }
+  message Dice Up:"#s(server.die)" Score:#v(this.score) Die:#v(this.die_left);
+  timeout = 1;
+  insertstring server.die.results,0,#v(this.score) Player:#n;
+  setstring server.die,;
+  setstring server.die.score,;
+  this.score = 0;
+}
+if (timeout)this.on = false;
+NPCEND
+NPC item_32x32.png 20 19
+//#CLIENTSIDE
+if (playertouchsme){
+  if (strequals(#s(client.mouse_item),-1)){
+    setstring client.mouse_item,item_32x32.png 1 1;
+  }
+}
+NPCEND
+NPC - 17 35
+// NPC created by Rogue Shadow
+//#CLIENTSIDE
+if (created)Message Pie Chart;
+if (playerchats && strequals(#c,Pie Chart)){
+  this.demo = true;
+  this.percent = 1;  // starting percentage 1 == 100 percent
+  this.detail = 1; // number of poly's when full drawn.  3 minimum. Max is whatever your pc can handle.
+  this.rad = 64;    // radius in pixels
+  this.x = screenwidth-64;  // middle pos
+  this.y = 64; // middle pos
+  showstats 1024;
+  init();
+  timeout = .05;
+}
+
+if (timeout){
+  if (this.demo == true){
+    if (this.mode == 0){
+      this.percent += 0.01;
+      if (this.percent > 1){
+        this.mode = 1;
+        this.percent = 1;
+      }
+    }elseif(this.mode == 1){
+      this.percent -= 0.01;
+      if (this.percent < 0){
+        this.mode = 0;
+        this.percent = 0;
+      }
+    }
+    draw_circle();
+  }else{
+    this.percent = (playerhearts/playerfullhearts);
+    if (this.percent != this.old_percent){
+      this.old_percent = this.percent;
+      draw_circle();
+    }
+  }
+  timeout = 0.05;
+}
+
+function init(){
+  setarray this.bx,this.detail+1;
+  setarray this.by,this.detail+1;
+  setarray this.gx,this.detail+1;
+  setarray this.gy,this.detail+1;
+  setarray this.angle,this.detail;
+  for (this.i = 1;this.i < this.detail+1;this.i++){
+    this.angle[this.i] = (pi*2)*(this.i/this.detail);
+    this.gx[this.i] = this.x+(sin(this.angle[this.i])*this.rad);
+    this.gy[this.i] = this.y+(cos(this.angle[this.i])*this.rad);
+    this.bx[this.i] = this.x+(sin(this.angle[this.i]-this.angle[1])*this.rad);
+    this.by[this.i] = this.y+(cos(this.angle[this.i]-this.angle[1])*this.rad);
+  }
+}
+
+function draw_circle(){
+  hideimgs 0,this.detail+2;
+  for (this.i = 1;this.i < (this.detail*this.percent)+1 ;this.i++){
+    showpoly this.i,{this.x,this.y,this.gx[this.i],this.gy[this.i],this.bx[this.i],this.by[this.i]};
+    changeimgcolors this.i,(this.i/this.detail),(this.i/this.detail),(this.i/this.detail),1;
+    changeimgvis this.i,5;
+  }
+  if (this.demo == true){
+    showimg this.i+1,@#v(this.i-1)/#v(this.detail) Poly's,25,25;
+    changeimgvis this.i+1,6;
+  }
+}
+NPCEND
+NPC sign.png 21 32
+//#CLIENTSIDE
+if (created)message New Line on ":";
+if (playertouchsme && this.read = 0){
+  triggeraction playerx+1,playery+1,message,"This is an examble: of Pre-defined: break points in the: text.  It uses a specific: Symbal to make the: break points. : I had some trouble: getting it to break: after a certain Lenght : as well as after: a certain character : So: Here: It: Goes: The Following Own: 1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:18",1,"Weird Sign";
+  this.read = 1;
+  timeout = 3;
+}
+if (timeout)this.read = 0;
+NPCEND
+NPC sign.png 28 28
+//#CLIENTSIDE
+if (created)message WrapText;
+if (playertouchsme && this.read == 0){
+  triggeraction playerx+1,playery+1,message,"This box uses wraptext2 to wrap the text. It works fine for most things. Although I had difficulty getting it to make a new line early. So for that i made my own method of doing it. but it supports only Manually putting in line breaks. So depending on what you wanna do you can use either method.","0";
+  this.read = 1;
+  timeout = 3;
+}
+if (timeout)this.read = 0;
+NPCEND
+NPC sign.png 17 24
+//#CLIENTSIDE
+if (playerchats){
+  if (startswith(/message,#c)){
+    for (this.i=0;this.i<playerscount;this.i++){
+      triggeraction players[this.i].x+1.5,players[this.i].y+1.5,message,#e(8,-1,#c),0,"#e(0,16,#n)";
+    }
+  }
+}
+NPCEND

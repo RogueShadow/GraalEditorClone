@@ -1,5 +1,7 @@
 package net.granseal.GraalEditorClone
 
+import net.granseal.GraalEditorClone.windows.Editor
+import net.granseal.GraalEditorClone.windows.components.NWLevelComponent
 import java.awt.event.ActionEvent
 import java.io.File
 import java.io.FileFilter
@@ -29,10 +31,10 @@ object GraalEditorClone {
     fun runSomeTests(){
         Editor.addLevel(JLabel("Added a new one!"),"New Tab!")
         Editor.removeLevel("New Tab!")
-        val files = File("res/levels").listFiles(FileFilter{
+        val files = File(LEVEL_PATH).listFiles(FileFilter{
             it.extension == "nw"
         })
-        val levels = files.map {
+        files.map {
             Editor.addLevel(NWLevelComponent(loadNWFile(it)),it.name)
         }
     }

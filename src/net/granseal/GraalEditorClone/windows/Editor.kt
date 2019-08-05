@@ -1,14 +1,13 @@
-package net.granseal.GraalEditorClone
+package net.granseal.GraalEditorClone.windows
 
-import java.awt.*
-import java.awt.event.ComponentEvent
-import java.awt.event.ComponentListener
-import java.io.File
-import javax.imageio.ImageIO
+import net.granseal.GraalEditorClone.*
+import net.granseal.GraalEditorClone.windows.components.TilesetComponent
+import java.awt.BorderLayout
+import java.awt.Component
+import java.awt.Dimension
+import java.awt.ScrollPane
 import javax.swing.*
 import javax.swing.border.CompoundBorder
-import javax.swing.event.AncestorEvent
-import javax.swing.event.AncestorListener
 
 
 object Editor : JFrame() {

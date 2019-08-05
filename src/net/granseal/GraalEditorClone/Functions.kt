@@ -6,6 +6,8 @@ import java.awt.Image
 import java.awt.Point
 import java.awt.Toolkit
 import java.awt.event.ActionEvent
+import java.awt.geom.Point2D
+import java.awt.geom.Rectangle2D.Float as RectF
 import java.io.File
 import javax.swing.AbstractButton
 import javax.swing.JMenuItem
@@ -221,3 +223,15 @@ fun <T: AbstractButton> T.addCallback(c: (ActionEvent) -> Unit): T {
     addActionListener{c(it)}
     return this
 }
+
+fun rectangle(x: Int,y: Int,w: Int, h: Int) = rectangle(x.toFloat(),y.toFloat(),w.toFloat(),h.toFloat())
+fun rectangle(x: Float, y: Float, w: Float, h: Float) = RectF(x,y,w,h)
+
+
+fun Int.toLevel() = this/16f
+fun Float.toLevel() = this/16f
+fun Int.toScreen() = this*16
+fun Float.toScreen() = this*16
+fun screenToLevel(p: Point) = screenToLevel(Point2D.Float(p.x.toFloat(),p.y.toFloat()))
+fun screenToLevel(p: Point2D.Float) = Point2D.Float(p.x.toLevel(),p.y.toLevel())
+fun levelToScreen(p: Point2D.Float) = Point2D.Float(p.x.toScreen(),p.y.toScreen())

@@ -14,12 +14,10 @@ const val BUILD = "1"
 const val VERSION = "$MAJOR.$MINOR.$BUILD"
 const val TITLE = "Graal Editor $VERSION"
 const val IMAGE_PATH = "res/images/"
+const val LEVEL_PATH = "res/levels/"
 
 
 object Config {
-    var TILESET_PATH = "res/images/pics1.png"
-    var BLANK_NPC_PATH = "res/images/blanknpc.png"
-    var CHEST_PATH = "res/images/chest.png"
     var DEFAULT_TILE: Short = 0x7ff
 }
 
@@ -31,8 +29,12 @@ object Assets {
             images[id] ?: throw Exception("No asset, $id, loaded.")
         }else{
             loadImage(IMAGE_PATH + id)
-            Thread.sleep(10)
-            images[id] ?: throw Exception("No asset, $id, loaded.")
+
+            if (exists(id)){
+                images[id]!!
+            }else{
+                images["blanknpc.png"]!!
+            }
         }
     }
 
