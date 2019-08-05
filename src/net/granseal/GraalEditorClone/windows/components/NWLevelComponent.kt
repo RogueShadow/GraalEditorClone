@@ -10,32 +10,8 @@ import java.awt.image.BufferedImage
 import javax.swing.JPanel
 
 class NWLevelComponent(val level: NWLevel): JPanel(), MouseListener {
-    override fun mouseReleased(e: MouseEvent) {
-    }
-
-    override fun mouseEntered(e: MouseEvent) {
-    }
-
-    override fun mouseClicked(e: MouseEvent) {
-        val obj = level.getClickedObject(e.x,e.y)
-
-        when (obj){
-            is NPC -> {
-                ScriptEditor(obj).init()
-            }
-            is Sign -> Editor.leftStatus = obj.text
-            is Baddy -> Editor.leftStatus = "You clicked a baddy. $obj"
-        }
-    }
-
-    override fun mouseExited(e: MouseEvent) {
-    }
-
-    override fun mousePressed(e: MouseEvent) {
-    }
-
-    val levelBuffer = BufferedImage(64*16,64*16,BufferedImage.TYPE_INT_ARGB)
-    val buf = levelBuffer.createGraphics()
+    private val levelBuffer = BufferedImage(64*16,64*16,BufferedImage.TYPE_INT_ARGB)
+    private val buf = levelBuffer.createGraphics()
 
     init {
         preferredSize = Dimension(64*16,64*16)
@@ -72,4 +48,22 @@ class NWLevelComponent(val level: NWLevel): JPanel(), MouseListener {
             g.drawImage(Assets("chest.png"),it.x.toScreen(),it.y.toScreen(),null)
         }
     }
+
+    override fun mouseReleased(e: MouseEvent) {}
+    override fun mouseEntered(e: MouseEvent) {}
+    override fun mouseClicked(e: MouseEvent) {
+        val click = screenToLevel(e.point)
+
+        when (val obj = level.getClickedObject(click)){
+            is NPC -> {
+                ScriptEditor(obj).init()
+            }
+            is Sign  -> Editor.leftStatus = "Sign says, ${obj.text}"
+            is Baddy -> Editor.leftStatus = "You clicked a baddy. $obj"
+            is Link  -> Editor.leftStatus = "You clicked a link $obj"
+            else -> Editor.leftStatus = obj.toString()
+        }
+    }
+    override fun mouseExited(e: MouseEvent) {}
+    override fun mousePressed(e: MouseEvent) {}
 }

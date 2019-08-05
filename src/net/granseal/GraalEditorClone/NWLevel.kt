@@ -1,5 +1,6 @@
 package net.granseal.GraalEditorClone
 
+import java.awt.geom.Point2D
 import java.awt.geom.Rectangle2D.Float as RectF
 
 data class NWLevel(var tiles: MutableList<Tile> = mutableListOf(),
@@ -9,9 +10,9 @@ data class NWLevel(var tiles: MutableList<Tile> = mutableListOf(),
                    var npcs: MutableList<NPC> = mutableListOf(),
                    var signs: MutableList<Sign> = mutableListOf()){
 
-    fun getClickedObject(x: Int, y: Int): LevelObject? {
-        val x = x.toLevel().toDouble()
-        val y = y.toLevel().toDouble()
+    fun getClickedObject(point: Point2D.Float) = getClickedObject(point.x,point.y)
+    fun getClickedObject(x: Float, y: Float) = getClickedObject(x.toDouble(),y.toDouble())
+    fun getClickedObject(x: Double, y: Double): LevelObject {
         val npc =  npcs.firstOrNull{it.getBounds().contains(x,y)}
         if (npc != null) return npc
         val baddy = baddies.firstOrNull { it.getBounds().contains(x,y) }
@@ -22,14 +23,14 @@ data class NWLevel(var tiles: MutableList<Tile> = mutableListOf(),
         if (sign != null) return sign
         val link = links.firstOrNull { it.getBounds().contains(x,y) }
         if (link  != null) return link
-        return null
+        return tiles.first { it.getBounds().contains(x,y) }
     }
 
 }
 
 
 data class Tile(val x: Int = 0,val y: Int = 0 ,val layer: Int = 0,val value: Short): LevelObject{
-    override fun getBounds() = rectangle(x,y,16,16)
+    override fun getBounds() = rectangle(x,y,1,1)
 }
 
 data class Link(val dest: String, val x: Int, val y: Int,
@@ -52,14 +53,14 @@ data class NPC(val image: String, val x: Int, val y: Int, val script: String): L
         return rectangle(
             x.toFloat(),
             y.toFloat(),
-            if (hasImage()) Assets(image).getWidth(null)/16f else Assets("blanknpc.png").getWidth(null)/16f,
-            if (hasImage()) Assets(image).getHeight(null)/16f else Assets("blanknpc.png").getHeight(null)/16f
+            if (hasImage()) Assets(image).getWidth(null).toLevel() else Assets("blanknpc.png").getWidth(null).toLevel(),
+            if (hasImage()) Assets(image).getHeight(null).toLevel() else Assets("blanknpc.png").getHeight(null).toLevel()
         )
     }
 }
 
 data class Sign(val x: Int, val y: Int, val text: String): LevelObject {
-    override fun getBounds() = rectangle(x,y,32,16)
+    override fun getBounds() = rectangle(x,y,2,1)
 }
 
 
